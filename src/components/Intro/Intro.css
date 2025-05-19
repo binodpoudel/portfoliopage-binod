@@ -1,0 +1,194 @@
+/* Intro.css  */
+.Intro {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.i-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  z-index: 2;
+}
+
+.i-name {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.i-name > :nth-child(1),
+.i-name > :nth-child(2) {
+  font-weight: bold;
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+  line-height: 1.2;
+}
+
+.i-name > :nth-child(1) {
+  color: var(--dark);
+}
+
+.i-name > :nth-child(2) {
+  color: var(--orange);
+}
+
+.i-name > :nth-child(3),
+.i-name > :nth-child(4) {
+  font-weight: 100;
+  font-size: clamp(0.9rem, 3vw, 1.1rem);
+  line-height: 1.6;
+  margin-top: 0.5rem;
+}
+
+.i-name > :nth-child(3) {
+  color: var(--dark);
+}
+
+.i-name > :nth-child(4) {
+  color: var(--orange);
+  margin-top: 1.5rem;
+}
+
+.i-button {
+  width: 8rem;
+  height: 2.5rem;
+  margin-top: 1rem;
+}
+
+.intro-icons {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.intro-icons > * {
+  transition: transform 0.3s ease;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.intro-icons > *:hover {
+  transform: scale(1.1);
+}
+
+.i-right {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.main-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: relative;
+  z-index: 5;
+}
+
+/* For the blur effects */
+.blur {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  filter: blur(72px);
+  z-index: 1;
+}
+
+/* Positioning for blur effects */
+.i-right > :nth-child(4) {
+  top: -18%;
+  left: 56%;
+}
+
+.i-right > :nth-child(5) {
+  top: 17rem;
+  left: -9rem;
+}
+
+.i-right > img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+
+.floating-div {
+  position: absolute;
+  z-index: 2;
+}
+
+
+/* Dark Mode */
+.dark .i-name > :nth-child(1),
+.dark .i-name > :nth-child(2) {
+  color: white;
+}
+
+.dark .i-name > :nth-child(3) {
+  color: #ccc;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .Intro {
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .i-left {
+    flex: 1;
+  }
+
+  .i-right {
+    flex: 1;
+    max-width: 25rem;
+    height: 25rem;
+    margin: 0;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .Intro {
+    padding: 3rem 5rem;
+    gap: 3rem;
+  }
+
+  .i-right {
+    max-width: 30rem;
+    height: 30rem;
+  }
+}
+
+/* Mobile Adjustments */
+@media (max-width: 480px) {
+  .Intro {
+    padding: 1.5rem 1rem;
+  }
+
+  .i-name > :nth-child(3) {
+    font-size: 0.9rem;
+  }
+
+  .intro-icons > * {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .i-right {
+    max-width: 18rem;
+    height: 18rem;
+    margin: 1rem auto;
+  }
+}

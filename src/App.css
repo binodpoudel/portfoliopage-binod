@@ -1,0 +1,155 @@
+/* App.css */
+:root {
+  --yellow: #F5C32C;
+  --orange: #FCA61F;
+  --black: #242D49;
+  --gray: #788097; 
+  --blueCard: #DDF8FE;
+  --purple: rgb(238, 210, 255);
+  --boxShadow: 0px 19px 60px rgba(0, 0, 0, 0.08);
+  --orangeCard: rgba(252, 166, 31, 0.45);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+  --mobile-padding: 1rem;
+  --tablet-padding: 2rem;
+  --desktop-padding: 3rem;
+  --breakpoint-mobile: 480px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-desktop: 1024px;
+  --footer-bg: #2a2e35;
+  --orange: #fca61f;
+  --black: #333;
+  --gray: #666;
+  --light-bg: #f8f9fa;
+  --dark-bg: #2a2e35; 
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  overflow-x: hidden;
+  min-height: 100vh;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding-bottom: 2rem;/* Adjust as needed */
+}
+
+.App {
+  padding: 1rem 1.5rem;
+  overflow: hidden;
+  color: var(--black);
+  position: relative;
+}
+
+/* Button Styles */
+.button {
+  background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+  box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 0.8rem 1.8rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.button:hover {
+  background: white;
+  cursor: pointer;
+  border: 1px solid var(--orange);
+  color: var(--orange);
+  transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+
+@media (min-width: 768px) {
+  .App {
+    padding: 2rem ;
+  }
+}
+@media (max-width: 480px) {
+  .App {
+    padding: 1rem;
+  }
+
+  html {
+    font-size: 15px;
+  }
+
+  .button {
+    padding: 0.7rem 1.5rem;
+  }
+
+  section {
+    padding: 1.5rem 0.5rem !important;
+  }
+
+}
+
+@media (max-width: 767px) {
+  /* Prevent text overflow */
+  body {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    overflow-x: hidden;
+  }
+
+  /* Fix padding issues */
+  .App {
+    padding: 0.5rem !important;
+  }
+
+  /* Ensure all sections have proper spacing */
+  section {
+    padding: 1rem 0.5rem !important;
+    margin: 0 !important;
+  }
+
+  /* Fix any floating elements */
+  .floating-div {
+    transform: scale(0.8);
+    margin: 0.5rem !important;
+  }
+}
+
+
+/* Section spacing */
+main > section {
+  margin: 5rem 0;
+}
+
+@media (max-width: 768px) {
+
+  main > section {
+    scroll-margin-top: 80px; /* For fixed header */
+  }
+  .floating-div {
+    transform: scale(0.9);
+  }
+}
+
+@media (min-width: 1024px) {
+  .App {
+    padding: 3rem 5rem;
+  }
+}

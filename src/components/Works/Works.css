@@ -1,0 +1,130 @@
+.works-section {
+  padding: 2rem;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.works-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.works-section h2 {
+  font-size: clamp(1.8rem, 5vw, 2.5rem);
+  text-align: center;
+  margin-bottom: 3rem;
+  color: var(--orange);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.skill-category {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.skill-category:hover {
+  transform: translateY(-5px);
+}
+
+.skill-category h3 {
+  font-size: clamp(1.2rem, 3vw, 1.4rem);
+  margin-bottom: 1rem;
+  color: var(--orange);
+}
+
+.skill-category ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-category li {
+  margin-bottom: 0.5rem;
+  font-size: clamp(0.9rem, 2vw, 1rem);
+  display: flex;
+  align-items: center;
+  color: var(--gray);
+}
+
+.skill-bullet {
+  color: var(--orange);
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+/* Dark mode styles */
+.dark .skill-category {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.dark .skill-category li {
+  color: #e0e0e0;
+}
+
+/* Responsive adjustments */
+
+@media (max-width: 480px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .works-section h2 {
+    margin-bottom: 2rem;
+  }
+  
+  .skill-category {
+    padding: 1rem;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .works-section {
+    padding: 2rem 1rem;
+  }
+  
+  .skill-category {
+    padding: 1.2rem;
+  }
+  /*   */
+  .works {
+    height: auto;
+    padding: 2rem 1rem !important;
+    margin-top: 1rem;
+  }
+
+  .awesome {
+    padding-top: 1rem !important;
+  }
+
+  .about {
+    font-size: 0.9rem !important;
+    line-height: 1.6;
+  }
+
+  /* Ensure text doesn't overflow */
+  .w-left {
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+}
+
+@media (max-width: 1024px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
