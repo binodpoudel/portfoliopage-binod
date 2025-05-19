@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/binodpoudel/portfoliopage-binod/static/css/main.3b2914d1.css",
-    "main.js": "/binodpoudel/portfoliopage-binod/static/js/main.5fbf9c26.js",
-    "static/media/travel.png": "/binodpoudel/portfoliopage-binod/static/media/travel.85b245efbb92e29ba562.png",
-    "static/media/online2.png": "/binodpoudel/portfoliopage-binod/static/media/online2.0359cf75c0064f615185.png",
-    "static/media/pizza.png": "/binodpoudel/portfoliopage-binod/static/media/pizza.86e0191dd1d5892e78f4.png",
-    "static/media/94.png": "/binodpoudel/portfoliopage-binod/static/media/94.6165ee26de229a2c7ed5.png",
-    "static/media/online12.png": "/binodpoudel/portfoliopage-binod/static/media/online12.5fc8829340540019641b.png",
-    "static/media/E-commerce.png": "/binodpoudel/portfoliopage-binod/static/media/E-commerce.74c557ecd4aedf809e12.png",
-    "static/media/5.jpg": "/binodpoudel/portfoliopage-binod/static/media/5.13030f96b48097a6ffda.jpg",
-    "static/media/humble.png": "/binodpoudel/portfoliopage-binod/static/media/humble.c8b32b53675e68978981.png",
-    "static/media/heartemoji.png": "/binodpoudel/portfoliopage-binod/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
-    "static/media/glasses.png": "/binodpoudel/portfoliopage-binod/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
-    "index.html": "/binodpoudel/portfoliopage-binod/index.html",
-    "main.3b2914d1.css.map": "/binodpoudel/portfoliopage-binod/static/css/main.3b2914d1.css.map",
-    "main.5fbf9c26.js.map": "/binodpoudel/portfoliopage-binod/static/js/main.5fbf9c26.js.map"
+    "main.css": "/portfoliopage-binod/static/css/main.3b2914d1.css",
+    "main.js": "/portfoliopage-binod/static/js/main.f178cbce.js",
+    "static/media/travel.png": "/portfoliopage-binod/static/media/travel.85b245efbb92e29ba562.png",
+    "static/media/online2.png": "/portfoliopage-binod/static/media/online2.0359cf75c0064f615185.png",
+    "static/media/pizza.png": "/portfoliopage-binod/static/media/pizza.86e0191dd1d5892e78f4.png",
+    "static/media/94.png": "/portfoliopage-binod/static/media/94.6165ee26de229a2c7ed5.png",
+    "static/media/online12.png": "/portfoliopage-binod/static/media/online12.5fc8829340540019641b.png",
+    "static/media/E-commerce.png": "/portfoliopage-binod/static/media/E-commerce.74c557ecd4aedf809e12.png",
+    "static/media/5.jpg": "/portfoliopage-binod/static/media/5.13030f96b48097a6ffda.jpg",
+    "static/media/humble.png": "/portfoliopage-binod/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/portfoliopage-binod/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/glasses.png": "/portfoliopage-binod/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "index.html": "/portfoliopage-binod/index.html",
+    "main.3b2914d1.css.map": "/portfoliopage-binod/static/css/main.3b2914d1.css.map",
+    "main.f178cbce.js.map": "/portfoliopage-binod/static/js/main.f178cbce.js.map"
   },
   "entrypoints": [
     "static/css/main.3b2914d1.css",
-    "static/js/main.5fbf9c26.js"
+    "static/js/main.f178cbce.js"
   ]
 }
