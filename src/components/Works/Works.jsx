@@ -9,20 +9,24 @@ const Works = () => {
   const techCategories = [
     {
       title: "🌐 Frontend",
-      skills: ["HTML5", "CSS3", "JavaScript(ES6+)", "React", 
-              "React Native", "Redux", "Context API", "Bootstrap", "Tailwind CSS", "Material UI"]
+      skills: ["HTML5", "CSS3", "Tailwind CSS", "JavaScript(ES6+)", "TypeScript", "React", "Next.js", 
+              "React Native", "React Router", "Redux", "Context API", "Bootstrap", "Material UI"]
     },
     {
       title: "🖥️ Backend",
-      skills: ["Node.js", "Express", "Python", "PHP", "Laravel", "REST APIs"]
+      skills: ["Node.js", "Express", "REST APIs", "JWT authentication", "Python", "PHP", "Laravel"]
     },
     {
       title: "🗄️ Database",
       skills: ["MongoDB",  "Mongoose", "MySQL", "SQL"]
     },
     {
-      title: "🧰 Tools",
-      skills: ["Git, GitHub, Webpack, GitHub Actions, CI/CD pipeline", "Agile, Scrum", "Figma, Responsive Design", "VSCode, Postman, Jest Testing, Debugging", "RESTful APIs, Docker", "TypeScript", "Pandas, NumPy, Streamlit, Machine Learning (ML)", "Artificial Intelligence (AI), Tableau",  "Linux"]
+      title: "🤖 AI/ML",
+      skills: ["Python", "Pandas", "NumPy", "Scikit‑learn", "TensorFlow", "PyTorch", "Streamlit", "data visualization (matplotlib, seaborn)"]
+    },
+    {
+      title: "🧰 DevOps & Testing",
+      skills: ["Docker", "GitHub", "CI/CD", "Jest", "PyTest", "Postman", "AWS basics"]
     }
   ];
 

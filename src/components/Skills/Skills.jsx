@@ -25,8 +25,8 @@ const Skills = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>🛠️Professional</span>
-        <span>Tech Stack</span>
+        <span style={{ color: darkMode ? "white" : "" }}>🛠️ Developer Stack</span>
+        <span></span>
         <span className="about" style={{ color: "#FCA61F" }}>
         </span>
         {/* 
@@ -45,8 +45,8 @@ const Skills = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"UI/UX, Responsive Layouts, Figma, "}
+            heading={"Design & Productivity"}
+            detail={"Figma, VS Code, debugging tools"}
           />
         </motion.div>
         {/* second card */}
@@ -57,8 +57,8 @@ const Skills = () => {
         >
           <Card
             emoji={Glasses}
-            heading={" Frontend Developer"}
-            detail={"HTML5, CSS3, JavaScript (ES6+), Tailwind CSS, Bootstrap, Material UI, Redux, Context API, React Native, React Router, UI/UX Design, Git Hub Team-Workﬂow Agile Methodologies."}
+            heading={" Frontend"}
+            detail={"HTML5, CSS3, JavaScript (ES6+), TypeScript, React, Next.js, React Router, Redux, Context API, Tailwind CSS, Bootstrap, Material UI"}
           />
 
         </motion.div>
@@ -71,8 +71,8 @@ const Skills = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Backend Developer"}
-            detail={"Node.js , Express.js, PHP, Laravel,Python,JWT Authentication methods, REST APIs, MongoDB, SQL, Mysql"}
+            heading={"Backend"}
+            detail={" Node.js, Express.js, REST APIs, JWT authentication, PHP, Laravel, Python"}
             color="rgba(252, 166, 31, 0.45)"
           />
 
@@ -85,12 +85,40 @@ const Skills = () => {
         >
           <Card
             emoji={Humble}
-            heading={"DataBase"}
+            heading={"Databases"}
             detail={
-              " MongoDB, SQL, MySql"
+              "  MongoDB (Mongoose), MySQL/SQL"
             }
             color="rgba(252, 166, 31, 0.45)"
           />
+        </motion.div>
+        {/* 5th card */}
+        <motion.div
+          initial={{ left: "11rem", top: "30rem" }}
+          whileInView={{ left: "-9rem" }}
+          transition={transition}
+        >
+          <Card
+            emoji={Glasses}
+            heading={"AI/ML"}
+            detail={" Python, Pandas, NumPy, Scikit‑learn, TensorFlow, PyTorch, Streamlit, data visualization libraries (Matplotlib, Seaborn)"}
+            color="rgba(252, 166, 31, 0.45)"
+          />
+
+        </motion.div>
+        {/* 6th card */}
+        <motion.div
+          initial={{ left: "11rem", top: "30rem" }}
+          whileInView={{ left: "-9rem" }}
+          transition={transition}
+        >
+          <Card
+            emoji={Glasses}
+            heading={"DevOps & Testing"}
+            detail={"  Docker, GitHub, CI/CD pipeline, Jest, PyTest, Postman, AWS basics"}
+            color="rgba(252, 166, 31, 0.45)"
+          />
+
         </motion.div>
         <div
           className="blur s-blur2"

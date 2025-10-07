@@ -18,21 +18,16 @@ const Intro = () => {
     <div className="Intro" id="Intro">
       <div className="i-left">
         <div className="i-name">
-          <span>Hi, </span>
+          <span>👋Hi, </span>
           <span>I'm Binod Poudel</span>
           <span className="about">
-            Originally from the beautiful Himalayan country of Nepal, 
-            I'm a Full-Stack Software Developer currently based in Berlin, Germany.
-            I'm passionate about turning ideas into clean, interactive, and responsive web applications.
-            Whether working on frontend interfaces or backend logic,
-            I love solving problems and having fun while doing it.
-            Right now, I'm actively seeking a <b style={{fontWeight: "bold", color: "var(--orange)"}}>Front-End Developer </b> role in Germany.
+                I’m a Full-Stack Software Developer with a strong focus on Frontend Development, currently based in Berlin, Germany. I specialize in building clean, responsive, and high-performance web applications that deliver exceptional user experiences. <br/> With a solid foundation in full-stack development, I’ve been working since 2020 with technologies like React.js, Next.js, and Tailwind CSS on the frontend — my primary area of expertise — while also building and integrating backend services using Node.js, Express.js, PHP, and Laravel. <br/> I'm passionate about UI/UX design, performance optimization, and clean, maintainable code. I'm also exploring Python and AI/ML to bring intelligent, data-driven features to the frontend. <br/> 🚀 I’m currently seeking a <span className="text-blue-600">Frontend Developer</span> Frontend Developer role — remote or on-site — across Europe and globally, where I can apply my frontend strengths while bringing full-stack insight to the team when needed.
           </span>
           <span className="hire">
-            <span>Got a project in mind?</span> <br />  
-            Let's build something amazing together!    
+            <span>💬 Got a project in mind?</span> <br />  
+            Let's build something amazing together —     
             I'd love to bring your ideas to life.
-          </span>
+            </span> 
         </div>
         <Link to="contact" smooth={true} spy={true}>
           <button className="button i-button">Hire me ⬇️</button>
@@ -41,9 +36,6 @@ const Intro = () => {
         <div className="intro-icons">
           <a href='https://github.com/binodpoudel' target='_blank' rel='noreferrer'>
             <Github color={darkMode ? "white" : "var(--orange)"} size={"100%"} />
-          </a>
-          <a href='https://slack.com' target='_blank' rel='noreferrer'>
-            <Slack color={darkMode ? "white" : "var(--orange)"} size={"100%"} />
           </a>
           <a href='https://www.linkedin.com/in/binod-poudel-a547281b2/' target='_blank' rel='noreferrer'>
             <LinkedIn color={darkMode ? "white" : "var(--orange)"} size={"100%"} />
