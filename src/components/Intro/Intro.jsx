@@ -6,7 +6,6 @@ import { ThemeContext } from "../../Context";
 import { Link } from "react-scroll";
 import Github from "@iconscout/react-unicons/icons/uil-github";
 import LinkedIn from "@iconscout/react-unicons/icons/uil-linkedin";
-import Slack from '@iconscout/react-unicons/icons/uil-slack';
 import Google from '@iconscout/react-unicons/icons/uil-at';
 import { FaXingSquare }  from "react-icons/fa";
 
