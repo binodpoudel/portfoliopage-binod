@@ -31,7 +31,7 @@ const Skills = () => {
         </span>
         {/*Resume */}
         <a href={Resume}  download type="application/pdf">
-          <button className="button s-button">Download</button>
+          <button className="button s-button">Resume</button>
         </a>
        {/*<div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div> */}
       </div> 
