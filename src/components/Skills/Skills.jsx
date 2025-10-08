@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { ThemeContext } from "../../Context";
 import { motion } from "framer-motion";
-//import Resume from './BINOD-Lebenslauf.pdf';
+import Resume from '../../img/Resume.pdf';
 
 
 const Skills = () => {
@@ -29,11 +29,11 @@ const Skills = () => {
         <span></span>
         <span className="about" style={{ color: "#FCA61F" }}>
         </span>
-        {/* 
-        <a href={Resume}  download>
+        {/*Resume */}
+        <a href={Resume}  download type="application/pdf">
           <button className="button s-button">Download</button>
         </a>
-        <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div> */}
+       {/*<div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div> */}
       </div> 
       {/* right */}
       <div className="cards" style={{ color: "black" }}>
@@ -87,7 +87,7 @@ const Skills = () => {
             emoji={Humble}
             heading={"Databases"}
             detail={
-              "  MongoDB (Mongoose), MySQL/SQL"
+              "  MongoDB, Mongoose, MySQL, SQL"
             }
             color="rgba(252, 166, 31, 0.45)"
           />
